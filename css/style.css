@@ -272,7 +272,7 @@ button {
      display: flex;
      padding: .5em 6em;
      gap: 2em;
-     background-color: #58080a;
+     background-color: #B11116;
 }
 
 ul.contat_infoma {
@@ -541,38 +541,46 @@ ul.search li a:hover {
 /* three_box */
 
 .three_box {
-     margin-top: -90px;
+     margin: 100px 0px;
 }
 
 .const {
-     padding: 40px 0 25px 0;
+     padding: 40px;
+     border-radius: 15px;
      background: #fff;
-     box-shadow: 0 0 250px rgba(3, 3, 3, 0.16);
-     transition: ease-in all 0.5s;
+     box-shadow: 1px 1px 11px 1px #ddd;
+     transition: ease-in all 0.1s;
+}
+
+.const i > img {
+     width: 100%; 
+     height: 300px;
+     object-fit: cover;
+     border-radius: 14px 14px 0px 0px;
 }
 
 .const span {
-     transition: ease-in all 0.5s;
      display: block;
      font-size: 16px;
      font-weight: 700;
      text-transform: uppercase;
      font-family: 'Raleway', sans-serif;
      color: #090a0b;
-     padding-top: 35px;
      line-height: 20px;
+     padding: 20px;
+}
+
+.const span > img {
+     width: 40px;
+     height: 40px;
 }
 
 #text_hover:hover.const {
-     background-color: #73A748;
-     transition: ease-in all 0.5s;
      cursor: pointer;
+     box-shadow:1px 1px 11px 5px #b1111640;
 }
 
-#text_hover:hover.const span {
-     color: #fff;
-     transition: ease-in all 0.5s;
-}
+
 
 
 /* end three_box */
@@ -1303,8 +1311,10 @@ ul.insta li {
      font-size: 2em;
 }
 
-/* Safari 4.0 - 8.0 */
 
+
+
+/* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
      0% {
           left: 0px;
