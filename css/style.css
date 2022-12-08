@@ -545,6 +545,7 @@ ul.search li a:hover {
 }
 
 .const {
+     margin: 20px 0px;
      padding: 40px;
      border-radius: 15px;
      background: #fff;
