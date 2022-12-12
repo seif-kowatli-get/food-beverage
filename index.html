@@ -42,7 +42,7 @@
    </div>
    <!-- end loader -->
    <!-- header -->
-   <header class="full_bg">
+   <header class="full_bg" style="overflow-x:hidden ;">
       <!-- header inner -->
       <div class="header">
          <div class="header_top">
@@ -83,8 +83,7 @@
                                  <div class="logo">
                                     <a href="index.html">
                                        <img src="./images/elwakil-logo.svg" alt="Green Queen"
-                                       style="max-width: 218px;position: relative;top: -49px;left: -36px;"
-                                    >
+                                          style="max-width: 218px;position: relative;top: -49px;left: -36px;z-index: 2;">
                                     </a>
                                  </div>
                               </div>
@@ -136,7 +135,28 @@
                <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-               <div class="carousel-item active">
+               <div style="max-height: 687px;height: 80vh;" class="carousel-item active">
+                  <img src="./images/banner1.jpg" style="position: absolute;width: 100%;max-width: unset;left: 0;top: 25px;" 
+                     alt=""
+                  >
+                  <div class="container">
+                     <div class="carousel-caption banner_po">
+                        <div class="row">
+                           <div class="col-md-9">
+                              <div class="build_box">
+                                 <h1>Our latest franchisee</h1>
+                                 <p>For all Turkish Cuisine lovers CZN BURAK is opening soon in Egypt</p>
+                                 <a class="read_more conatct_btn" href="#contact" role="button">Contact Us</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div style="max-height: 687px;height: 80vh;" class="carousel-item">
+                  <img src="./images/banner2.jpg" style="position: absolute;width: 100%;max-width: unset;left: 0;top: 25px;object-fit: cover;" 
+                     alt=""
+                  >
                   <div class="container">
                      <div class="carousel-caption banner_po">
                         <div class="row">
@@ -160,7 +180,7 @@
                <i class="fa fa-angle-right" aria-hidden="true"></i>
                <span class="sr-only">Next</span>
             </a>
-           
+
          </div>
       </section>
    </header>
@@ -174,7 +194,7 @@
 
             <div class="col-md-4">
                <div class="about_img">
-                  <figure><img style="border-radius: 15px;" src="images/about1.webp" alt="#" /></figure>
+                  <figure><img style="border-radius: 15px;" src="images/about1.png" alt="#" /></figure>
                </div>
             </div>
             <div class="col-md-4">
@@ -194,7 +214,7 @@
 
             <div class="col-md-4">
                <div class="about_img">
-                  <figure><img style="border-radius: 15px;" src="images/about2.webp" alt="#" /></figure>
+                  <figure><img style="border-radius: 15px;" src="images/about2.png" alt="#" /></figure>
                </div>
             </div>
          </div>
@@ -212,7 +232,7 @@
                      <i><img src="images/About-our-Franchise-158152460.jpg" alt="#" /></i>
                      <span>
                         <img src="images/About-our-Franchise.svg" alt="">
-                        About our Franchise 
+                        About our Franchise
                      </span>
                   </div>
                </a>
@@ -253,7 +273,9 @@
                <div class="titlepage">
                   <h2>Our Brands</h2>
                   <span style="max-width: 978px;
-                  margin: auto;">With more than 1000 employees in all our restaurants and other business, we are involved. We host an average of 3000-5000 guests every day in all our branches of our restaurants.</span>
+                  margin: auto;">With more than 1000 employees in all our restaurants and other business, we are
+                     involved. We host an average of 3000-5000 guests every day in all our branches of our
+                     restaurants.</span>
                </div>
             </div>
          </div>
@@ -351,7 +373,7 @@
             </div>
             <div class="col-md-5">
                <div class="about_img">
-                  <figure><img style="border-radius: 20px;" src="images/businessWithUs.png" alt="#" /></figure>
+                  <figure><img style="border-radius: 20px;" src="images/businessWithUs.jpg" alt="#" /></figure>
                </div>
             </div>
          </div>
@@ -380,10 +402,10 @@
                      Our partner known as El Wakil F&B is known to be a fast-growing Food and Beverage Holding Group
                      that is popular in helping the expansion of a recognized brand in the GCC and Egypt. It masters
                      franchise rights holder in the Middle East region and help create long term advantages for both
-                     parties in the Food and Beverage retail space. <br><br> 
-                     <strong>website : <a href="#" style="color: white;">www.elwakil.eg</a></strong> 
+                     parties in the Food and Beverage retail space. <br><br>
+                     <strong>website : <a href="#" style="color: white;">www.elwakil.eg</a></strong>
                   </span>
-                  
+
                </div>
             </div>
 
@@ -403,11 +425,13 @@
          </div>
          <div style="box-shadow: 0 0 250px rgb(3 3 3 / 15%);">
             <div class="row">
-               <p style="width: 100%;text-align: center;margin: 3em;">For further inquiries, kindly fill your personal
-                  information in the section below. </p>
-            </div>
-            <div class="row">
                <div class="col-md-6 padding_right0">
+                  <div class="row">
+                     <p style="width: 100%;padding: 3em;padding-left: 6em;">
+                        For further inquiries, kindly fill your personal
+                        information in the section below.
+                     </p>
+                  </div>
                   <form id="request" class="main_form" style="box-shadow: none;">
                      <div class="row">
                         <div class="col-md-12 ">
@@ -431,7 +455,13 @@
                <div class="col-md-6">
                   <div class="map_main">
                      <div class="map-responsive">
-                        <img src="./images/Become-a-franchiser-160815029.jpg" style="max-width: 514px;margin-right: 0;position: relative;top: 25px;height: 318px;" alt="">
+                        <img src="./images/contact-us.jpg" style="margin-right: 0;
+                           position: absolute;
+                           top: 0;
+                           width: 100%;
+                           height: 100%;
+                           right: 17px;
+                           object-fit: cover;" alt="">
                      </div>
                   </div>
                </div>
